@@ -8,15 +8,13 @@
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39101739-1']);
-  _gaq.push(['_trackPageview']);
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+        ga('create', 'UA-41499978-6', 'auto');
+        ga('send', 'pageview');
 
     </script>
     <script type="text/javascript" src="assets/jquery-1.7.1.min.js"></script>
@@ -238,7 +236,13 @@
       <div id="main" class="grid-1">
         <div id="logo"><h1>CHSR Source Code</h1></div>
         <h1>CHSR writes human services web apps.</h1>
-        <p>Visit <a href="http://albany.edu/CHSR">CHSR home page</a></p>
+        <p>Visit:
+            <ul>
+                <li><a href="http://albany.edu/CHSR">CHSR home page</a></p></li>
+                <li><a href="https://www.hfnymis.org"></a>Healthy Families New York MIS</li>
+                <li><a href="https://www.famsys.org"></a>Healthy Families New Jersey FamSys</li>
+                <li><a href="http://healthyfamiliesonline.com"></a>Healthy Families Online - all other states</li>
+            </ul>
       </div>
 
       <div class="grid grid-3">
